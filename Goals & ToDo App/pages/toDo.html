@@ -3,17 +3,30 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>To-Do</title>
+    <title>ToDo List</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css'  href='../styles/styles.css'>  
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Create Your ToDo</h1>
+            <form action="" id="task-form">
+                <input type="text" id="task-input" placeholder="What are your tasks for today?">
+                <input type="submit" id="task-submit" value="Add">
 
-    <header><h3>To-Do List</h3></header>
+            </form>
+        </header>
+        <main>
+            <section class="task-list">
 
-    <input type="checkbox"><input type="text" placeholder="Wash Hair">
-    <button><img src=""></button>
-    
+                <div id="tasks">   
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <script src='main.js'></script>
 </body>
 </html>

@@ -10,8 +10,12 @@
 > Bank
 > Reward System
 
+**Optional/Later Feature**
+>Calendar
+>Notes
+
 **Functions**
-> Simpleistic
+> Simplistic and basic as possible
 > Stylist
 > Easy to Use and understand
 
@@ -26,3 +30,9 @@
 | - | - |
 | To-Do List | This is were users can add basic daily, weekly, or monthly tasks that need to get done that you can check off as you finish it. These tasks are simple to involved tasks (Ex: cleaning the kitichen, workout, wash hair). Points are awarded based on how much effort the task was and the level of impact. For instance a invoveled task with a level of impact of 3 would earn the highest amount of points. While a simple or low-hanging fruit task with a level of impact of 1 would earn the least amount of point. |
 | Effort VS Impact |There are 3 main sub catrgoresd for both effort and impact. Effort is the amount of time and energy that would go into the task (Low-Hanging Fruit, Moderate, Involved).
+
+**Resources & Tools**
+> https://freshman.tech/todo-list/
+> https://javascript.plainenglish.io/how-to-create-a-todo-list-using-javascript-5e126a93483
+> https://medium.com/@diogo.fg.pinheiro/simple-to-do-list-app-with-node-js-and-mongodb-chapter-1-c645c7a27583
+> 
