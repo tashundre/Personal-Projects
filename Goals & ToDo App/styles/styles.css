@@ -1,7 +1,7 @@
 :root {
     --lightgreen: #00c78a;
     --orange: #ff9c27;
-    --primarytext: #f2e8cf;
+    --primarytext: #fefefd;
 }
 
 *{
@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #f2e8cf;
+    background: #262626;
 }
 
 header {
@@ -63,7 +63,7 @@ input, button {
     font-weight: 700;
     cursor: pointer;
     transition: 0.4s;
-    border: 10px solid var(--primarytext);
+    border: 1px solid var(--primarytext);
     border-radius: 1rem;
     padding: 1rem;
 }
