@@ -3,11 +3,16 @@
 This is a habit and goals tracker designed with a rewards system to help keep you motivated my working towards prizes and rewards.
 
 **Features**
-> To-Do Lists  
+> To-Do Lists
+> ##  
 > Major and Minor Goals  
+> ##
 > Points System  
+> ##
 > Trophy System  
+> ##
 > Bank  
+> ##
 > Reward System  
 
 **Optional/Later Feature**
@@ -38,14 +43,14 @@ This is a habit and goals tracker designed with a rewards system to help keep yo
 > 
 
 **To Do List & Progress**
--[x]Create Basic ToDo App Page
--[]Align contents on page for better looking UI and make sure everything scales properly.
--[]Add all the basic funcinalities. (~~Add~~, edit, ~~delete~~)
--[]Comment code a little better
--[]Find icons for coins and trophies
--[]Host Website Privately So I can look at it on my phone
--[]Style page to my liking
--[]Create header at top of page for small icon and view of coins and trophies
--[]Create log in page
--[]Expand functionality of todo with impact & effort
--[]Calculate reward numbers for each variation of a task based on the impact and effort. Or if niether is selected a baseline reward. 
+- [x] Create Basic ToDo App Page
+- [ ] Align contents on page for better looking UI and make sure everything scales properly.
+- [ ] Add all the basic funcinalities. (~~Add~~, edit, ~~delete~~)
+- [ ] Comment code a little better
+- [ ] Find icons for coins and trophies
+- [ ] Host Website Privately So I can look at it on my phone
+- [ ] Style page to my liking
+- [ ] Create header at top of page for small icon and view of coins and trophies
+- [ ] Create log in page
+- [ ] Expand functionality of todo with impact & effort
+- [ ] Calculate reward numbers for each variation of a task based on the impact and effort. Or if niether is selected a baseline reward. 
