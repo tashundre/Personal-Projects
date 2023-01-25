@@ -10,10 +10,6 @@ This is a habit and goals tracker designed with a rewards system to help keep yo
 > Bank  
 > Reward System  
 
-**Optional/Later Feature**
->Calendar  
->Notes  
-
 **Functions**
 > Simplistic and basic as possible  
 > Stylist  
@@ -24,6 +20,10 @@ This is a habit and goals tracker designed with a rewards system to help keep yo
 > To-Do List and Goals  
 > Bank (Spending Zone)  
 > Trohpy and Points Area  
+
+**Optional/Later Features**
+>Calendar  
+>Notes  
 
 **Project Concept**
 | Idea/Concept | Description |
@@ -38,7 +38,7 @@ This is a habit and goals tracker designed with a rewards system to help keep yo
 > 
 
 **To Do List & Progress**
-- [x] Create Basic ToDo App Page
+- [X] Create Basic ToDo App Page
 - [ ] Align contents on page for better looking UI and make sure everything scales properly.
 - [ ] Add all the basic funcinalities. (~~Add~~, edit, ~~delete~~)
 - [ ] Comment code a little better
