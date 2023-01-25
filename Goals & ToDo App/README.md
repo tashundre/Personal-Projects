@@ -38,8 +38,9 @@
 > 
 
 **To Do List & Progress**
-``>Create Basic ToDo App Page``
->Add all the basic funcinalities. (``Add``, edit, ``delete``)
+>~~Create Basic ToDo App Page~~
+>Align contents on page for better looking UI and make sure everything scales properly.
+>Add all the basic funcinalities. (~~Add~~, edit, ~~delete~~)
 >Comment code a little better
 >Find icons for coins and trophies
 >Host Website Privately So I can look at it on my phone
