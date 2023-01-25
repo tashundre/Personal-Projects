@@ -36,3 +36,14 @@
 > https://javascript.plainenglish.io/how-to-create-a-todo-list-using-javascript-5e126a93483
 > https://medium.com/@diogo.fg.pinheiro/simple-to-do-list-app-with-node-js-and-mongodb-chapter-1-c645c7a27583
 > 
+
+**To Do List & Progress**
+``>Create Basic ToDo App Page``
+>Add all the basic funcinalities. (``Add``, edit, ``delete``)
+>Find icons for coins and trophies
+>Host Website Privately So I can look at it on my phone
+>Style page to my liking
+>Create header at top of page for small icon and view of coins and trophies
+>Create log in page
+>Expand functionality of todo with impact & effort
+>Calculate reward numbers for each variation of a task based on the impact and effort. Or if niether is selected a baseline reward. 
