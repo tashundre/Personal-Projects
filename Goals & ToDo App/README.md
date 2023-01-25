@@ -4,15 +4,10 @@ This is a habit and goals tracker designed with a rewards system to help keep yo
 
 **Features**
 > To-Do Lists
-> ##  
 > Major and Minor Goals  
-> ##
 > Points System  
-> ##
 > Trophy System  
-> ##
 > Bank  
-> ##
 > Reward System  
 
 **Optional/Later Feature**
