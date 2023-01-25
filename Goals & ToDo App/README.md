@@ -35,7 +35,6 @@ This is a habit and goals tracker designed with a rewards system to help keep yo
 > https://freshman.tech/todo-list/
 > https://javascript.plainenglish.io/how-to-create-a-todo-list-using-javascript-5e126a93483
 > https://medium.com/@diogo.fg.pinheiro/simple-to-do-list-app-with-node-js-and-mongodb-chapter-1-c645c7a27583
-> 
 
 **To Do List & Progress**
 - [X] ~~Create Basic ToDo App Page~~
