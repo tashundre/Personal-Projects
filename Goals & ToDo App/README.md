@@ -1,29 +1,29 @@
 ## Goals & Rewards Tracker
 
-**This is a habit and goals tracker designed with a rewards system to help keep you motivated my working towards prizes and rewards. **
+This is a habit and goals tracker designed with a rewards system to help keep you motivated my working towards prizes and rewards.
 
 **Features**
-> To-Do Lists
-> Major and Minor Goals
-> Points System
-> Trophy System
-> Bank
-> Reward System
+> To-Do Lists  
+> Major and Minor Goals  
+> Points System  
+> Trophy System  
+> Bank  
+> Reward System  
 
 **Optional/Later Feature**
->Calendar
->Notes
+>Calendar  
+>Notes  
 
 **Functions**
-> Simplistic and basic as possible
-> Stylist
-> Easy to Use and understand
+> Simplistic and basic as possible  
+> Stylist  
+> Easy to Use and understand  
 
 **Pages**
-> Overview/Dashboard
-> To-Do List and Goals
-> Bank (Spending Zone)
-> Trohpy and Points Area
+> Overview/Dashboard  
+> To-Do List and Goals  
+> Bank (Spending Zone)  
+> Trohpy and Points Area  
 
 **Project Concept**
 | Idea/Concept | Description |
@@ -38,14 +38,14 @@
 > 
 
 **To Do List & Progress**
->~~Create Basic ToDo App Page~~
->Align contents on page for better looking UI and make sure everything scales properly.
->Add all the basic funcinalities. (~~Add~~, edit, ~~delete~~)
->Comment code a little better
->Find icons for coins and trophies
->Host Website Privately So I can look at it on my phone
->Style page to my liking
->Create header at top of page for small icon and view of coins and trophies
->Create log in page
->Expand functionality of todo with impact & effort
->Calculate reward numbers for each variation of a task based on the impact and effort. Or if niether is selected a baseline reward. 
+-[x]Create Basic ToDo App Page
+-[]Align contents on page for better looking UI and make sure everything scales properly.
+-[]Add all the basic funcinalities. (~~Add~~, edit, ~~delete~~)
+-[]Comment code a little better
+-[]Find icons for coins and trophies
+-[]Host Website Privately So I can look at it on my phone
+-[]Style page to my liking
+-[]Create header at top of page for small icon and view of coins and trophies
+-[]Create log in page
+-[]Expand functionality of todo with impact & effort
+-[]Calculate reward numbers for each variation of a task based on the impact and effort. Or if niether is selected a baseline reward. 
