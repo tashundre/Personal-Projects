@@ -38,7 +38,7 @@ This is a habit and goals tracker designed with a rewards system to help keep yo
 > 
 
 **To Do List & Progress**
-- [X] Create Basic ToDo App Page
+- [X] ~~Create Basic ToDo App Page~~
 - [ ] Align contents on page for better looking UI and make sure everything scales properly.
 - [ ] Add all the basic funcinalities. (~~Add~~, edit, ~~delete~~)
 - [ ] Comment code a little better
