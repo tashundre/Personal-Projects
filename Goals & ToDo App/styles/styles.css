@@ -18,15 +18,51 @@ body {
     color: #fefefd;
 }
 
+.icon-navbar {
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: #262626;
+    overflow: auto;
+}
+
+.icon-navbar svg {
+    width: 30px;
+}
+
+.icon-navbar a {
+    float: left;
+    text-align: center;
+    width: 33%;
+    padding: 12px, 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: x-small;
+}
+
+.icon-navbar a:hover {
+    background-color: grey;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
 header {
     padding: 2rem 1rem;
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
+    position: fixed;
+    top: -32px;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--primarytext);
     margin-bottom: 1.5rem;
@@ -40,6 +76,8 @@ svg {
 
 #task-form {
     display: flex;
+    background-color: #262626;
+    width: 96%;
 }
 
 input [type="checkbox"] {
@@ -124,6 +162,7 @@ main {
     border-radius: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    justify-content: space-around;
 }
 
 #tasks .task .content {
@@ -186,6 +225,14 @@ main {
     align-items: center;
     justify-content: left;
     justify-items: left;
+}
+
+.js-todo-list {
+    margin-left: -1em;
+    margin-right: .5em;
+    margin-top: 65px;
+    width: 492px;
+    position: static;
 }
 
 .todo-item {

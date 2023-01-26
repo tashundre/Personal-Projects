@@ -41,7 +41,7 @@ This is a habit and goals tracker designed with a rewards system to help keep yo
 - [ ] Align contents on page for better looking UI and make sure everything scales properly.
 - [ ] Add all the basic funcinalities. (~~Add~~, edit, ~~delete~~)
 - [ ] Comment code a little better
-- [ ] Find icons for coins and trophies
+- [X] ~~Find icons for coins and trophies~~
 - [ ] Host Website Privately So I can look at it on my phone
 - [ ] Style page to my liking
 - [ ] Create header at top of page for small icon and view of coins and trophies
