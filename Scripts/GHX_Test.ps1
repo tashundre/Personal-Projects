@@ -1,6 +1,6 @@
 # Define email parameters
-$toAddresses = "IJSCS@jax.ufl.edu; CentralSupplyTeam@jax.ufl.edu; Dwayne.Perkins@jax.ufl.edu; Robert.Alday@jax.ufl.edu; Matthew.Jackson@owens-minor.com"
-$ccAddress = "AHC_DATA_CENTER@SHANDS.UFL.EDU"
+$toAddresses = "REDACTED EMAILS"
+$ccAddress = "REDACTED EMAILS"
 $currentDate = (Get-Date).ToString("MM/dd/yyyy")
 $subject = "GHX Orders for $currentDate"
 $body = "FYI,`n`nThank you,"
@@ -75,7 +75,7 @@ for ($i = 0; $i -lt 5; $i++) {  # Simulate 5 Ctrl+Plus to zoom in
 Write-Host "Browser zoom set to 100%."
 
 # Copy the username to the clipboard
-Set-Clipboard -Value "ahc_data_center@shands.ufl.edu"
+Set-Clipboard -Value "REDACTED"
 
 # Simulate Ctrl+V to paste the username
 Add-Type -AssemblyName System.Windows.Forms
@@ -88,7 +88,7 @@ Add-Type -AssemblyName System.Windows.Forms
 Start-Sleep -Seconds 2
 
 # Copy the password to the clipboard
-Set-Clipboard -Value "Shands19?"
+Set-Clipboard -Value "REDACTED"
 
 # Simulate Ctrl+V to paste the password
 [System.Windows.Forms.SendKeys]::SendWait("^v")
