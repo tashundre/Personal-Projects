@@ -1,1 +1,12 @@
+Outcome: a PowerShell script that:
+  Checks CPU, RAM, disk, and a few Windows services,
+  Writes a timestamped result to a rolling log (CSV or JSON),
+  Alerts (console + exit code) when thresholds are crossed.
+
+Collect metrics → CPU %, memory %, free disk GB, key service status.
+Decide (compare to thresholds) → healthy/ warning/ critical.
+Record (append to file) → CSV or JSON in a known folder.
+Alert (fast feedback) → console output + nonzero exit code on critical.
+
+Tools:
 
