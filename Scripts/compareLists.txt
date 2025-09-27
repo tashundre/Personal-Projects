@@ -1,0 +1,39 @@
+@echo off
+setlocal EnableDelayedExpansion
+
+:: Set file paths (assumes all files are in the same folder as the .bat file)
+set "fileA=%~dp0FileA.txt"
+set "fileB=%~dp0FileB.txt"
+set "output=%~dp0MissingItems.txt"
+
+:: Check if both files exist
+if not exist "%fileA%" (
+    echo FileA.txt not found in folder. Exiting.
+    pause
+    exit /b
+)
+if not exist "%fileB%" (
+    echo FileB.txt not found in folder. Exiting.
+    pause
+    exit /b
+)
+
+:: Create a temporary file to store items from FileB
+set "tempB=%temp%\tempB.txt"
+(for /f "delims=" %%B in ('type "%fileB%"') do (
+    echo %%B
+)) > "%tempB%"
+
+:: Compare FileA against FileB
+> "%output%" (
+    for /f "delims=" %%A in ('type "%fileA%"') do (
+        findstr /x /c:"%%A" "%tempB%" >nul
+        if errorlevel 1 echo %%A
+    )
+)
+
+:: Cleanup
+del "%tempB%"
+
+echo Missing items saved to MissingItems.txt
+pause

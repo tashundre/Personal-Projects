@@ -1,0 +1,19 @@
+@echo off
+setlocal EnableDelayedExpansion
+
+rem Set the directory path
+set "directory=P:\Daily Tasks and Stuff and Things\Weekly Status Reports"
+
+rem Change to the specified directory
+cd /d "%directory%"
+
+rem Loop through each file in the directory
+for %%f in ("%directory%\*") do (
+    rem Check if it's a file
+    if exist "%%f" (
+        rem Open the file
+        start "" "%%f"
+    )
+)
+
+endlocal
