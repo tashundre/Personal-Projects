@@ -1,1 +1,16 @@
-
+{
+  "thresholds":{
+    "cpu_warn": 75,
+    "cpu_crit": 90,
+    "mem_warn": 75,
+    "mem_crit": 90,
+    "disk_free_gb_warn": 10,
+    "disk_free_gb_crit": 5
+  },
+  "services": ["Spooler", "wuauserv", "LanmanServer"],
+  "log": {
+    "basename": "syshealth",
+    "max_kb": 1024,
+    "keep": 7
+  }
+}
