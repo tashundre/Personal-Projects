@@ -11,3 +11,16 @@
 * Outputs: daily CSV (defaults) of JSONL file; rptates when too large
 * Behavior: exit code 0/1/2; human-readable console line
 
+# What
+1. **Reads settings** (or uses sensible defaults if your config.json is missing)
+2. **Checks your machine:**
+   * CPU Usage now
+   * Memore usage now
+   * Free Space on each fixed drive
+   * Whether specific services are running
+3. **Compares to your rules (warn/critical thresholds)**
+4. **Decided** overall health = Healthy/Warning/Critical and why reasons
+5. **Writes a row to a daily log ** (CSV or JSON), safely rotating if large
+6. **Prints one concise statue line** and **exits with 0/1/2** so other tools can react 
+
+# Why
