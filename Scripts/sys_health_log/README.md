@@ -24,3 +24,5 @@
 6. **Prints one concise statue line** and **exits with 0/1/2** so other tools can react 
 
 # Why
+* **Config-driven:** thresholds + service named live in ```config.json``` so you dont edit code everytime you tweak rules.
+* **Small, composable functions:** CPU, memory, disks, services, and status logic are separated so you can swap/extend easily.  
