@@ -30,7 +30,6 @@ function Read-Config {
     }
 }
 
-
 # ----------------------------------- Helper: default config values -----------------------------------------
 function Default-Config {
     # Create an in-memory object matching the config schema.
@@ -44,3 +43,20 @@ function Default-Config {
         log = @{ basename = "syshealth"; max_kb = 1024; keep = 7 }
     } | ConvertTo-Json -Depth 5 | ConvertFrom-Json
 }
+
+# ----------------------------------- Helper: ensure folder -----------------------------------------
+function Ensure-Dir {
+    param([string]$p)
+    if (-not (Test-Path $p)) {
+        New-Item -ItemType Directory -Path $p | Out-Null
+    }
+}
+
+# ----------------------------------- Helper: build log path -----------------------------------------
+function New-LogPath {
+    param([string]$dir, [string]$base,[string]$fmt)
+    $date = Get-Date -Format "yyyyMMdd"
+    Join-Path $dir "$base-$date.$fmt"
+}
+
+# ----------------------------------- Helper: rotate logs -----------------------------------------
