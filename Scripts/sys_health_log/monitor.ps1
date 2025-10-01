@@ -60,3 +60,15 @@ function New-LogPath {
 }
 
 # ----------------------------------- Helper: rotate logs -----------------------------------------
+function Rotate-Log {
+    param([string]$Path,[int]$Keep)
+    # If log doesnt exist yet, nothing to rotate.
+    if (-not (Test-Path)) { return }
+
+    # Check file size; if under cap, do nothing.
+    $sizeKB = [int]([Math]::Ceiling((Get-Item $Path).Length / 1KB))
+    if ($sizeKB -lt $MaxKB) { return }
+
+    # Move the current log to an archive with a timestame suffix.
+    
+}
