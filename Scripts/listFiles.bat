@@ -14,7 +14,7 @@ if not exist "%targetFolder%" (
 :: Output file (in the same folder as the .bat file)
 set outputFile=FileList.txt
 
-:: List only files and save to output file
+:: List ONLY files in alphabetical order and save to output file
 dir /b /a-d /on "%targetFolder%" > "%outputFile%"
 
 echo Folder list saved to %outputFile%
