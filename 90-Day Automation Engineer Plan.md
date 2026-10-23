@@ -1,7 +1,7 @@
 # 90-Day Automation Engineer Plan
 
 Online Python link: 
-https://jupyter.org/try-jupyter/lab/
+https://jupyter.org/try-jupyter/lab/  
 https://www.programiz.com/python-programming/online-compiler/
 
 Prepared for Tashundre Gilmore, October 2026
