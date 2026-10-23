@@ -1,5 +1,9 @@
 # 90-Day Automation Engineer Plan
 
+Online Python link: 
+https://jupyter.org/try-jupyter/lab/
+https://www.programiz.com/python-programming/online-compiler/
+
 Prepared for Tashundre Gilmore, October 2026
 
 Goal: build the skills and proof needed to move from IT Operations Analyst into a systems, infrastructure or cloud automation role, on the way to platform engineering and an MS in Systems Engineering.
