@@ -1,6 +1,6 @@
 # 90-Day Automation Engineer Plan
 
-Online Python link: 
+Online Python link:  
 https://jupyter.org/try-jupyter/lab/  
 https://www.programiz.com/python-programming/online-compiler/
 
